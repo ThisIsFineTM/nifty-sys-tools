@@ -34,6 +34,48 @@ If you don't mind waiting a while, `zpaq -m5` can give some bonkers compression 
 
 Ships in fedora's package manager at least.
 
+### [grub-btrfs](https://github.com/Antynea/grub-btrfs)
+
+> grub-btrfs improves the grub bootloader by adding a btrfs snapshots sub-menu, allowing the user to boot into snapshots. grub-btrfs supports manual snapshots as well as snapper, timeshift, and yabsnap created snapshots.
+
+Note: Read the instructions and check the script. Some paths need to be updated to match your system.
+
+https://github.com/Antynea/grub-btrfs/releases
+
+### [jomt](https://github.com/gaujay/jomt)
+
+> Visualization tool for Google benchmark results.
+
+https://github.com/gaujay/jomt/releases
+
+### [lynis](https://github.com/CISOfy/Lynis)
+
+> Lynis is a battle-tested security tool for systems running Linux, macOS, or Unix-based operating system. It performs an extensive health scan of your systems to support system hardening and compliance testing. The project is open source software with the GPL license and available since 2007.
+
+https://cisofy.com/lynis
+
+### [mold](https://github.com/rui314/mold)
+
+> mold is a faster drop-in replacement for existing Unix linkers.
+
+https://github.com/rui314/mold/releases
+
+### [ncdu](https://dev.yorhel.nl/ncdu)
+
+> Ncdu is a disk usage analyzer with a text-mode user interface. It is designed to find space hogs on a remote server where you don’t have an entire graphical setup available, but it is a useful tool even on regular desktop systems. Ncdu aims to be fast, simple, easy to use, and should be able to run on any POSIX-like system.
+
+### [compsize](https://github.com/kilobyte/compsize)
+
+> compsize takes a list of files (given as arguments) on a btrfs filesystem and measures used compression types and effective compression ratio.
+
+### [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+
+> A flexible DNS proxy, with support for modern encrypted DNS protocols such as DNSCrypt v2, DNS-over-HTTPS, Anonymized DNSCrypt and ODoH (Oblivious DoH).
+
+I'll get around to posting my configs for this eventually.
+
+https://github.com/DNSCrypt/dnscrypt-proxy/releases
+
 ## Rust-based tools (in vaguely alphabetical order)
 
 ### [cargo-install-update](https://github.com/nabijaczleweli/cargo-update)
