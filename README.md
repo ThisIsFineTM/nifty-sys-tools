@@ -103,6 +103,23 @@ git clone https://github.com/quic/AFLTriage
 cargo install
 ```
 
+### [arx](https://github.com/jubako/arx)
+
+> Arx is a high-performance file archive format built upon the Jubako container format. It offers a compelling alternative to traditional archive formats like zip and tar, providing significant speed advantages, especially for large archives and random access operations. Arx archives can even be mounted as read-only filesystems.
+
+I've been shopping around for something indexed like pixz/7z but with more flexibility. This fits that bill rather nicely. It's a nice middle-ground between tar and squashfs. Seems to do better than squashfs compressing clang. arx/sqfs/tar compressed at zstd:22.
+```
+5.9G clang-19.1.0
+1.9G clang-19.1.0 [compsize btrfs force-compress=zstd:4]
+1.3G clang-19.1.0.arx
+1.6G clang-19.1.0.sqfs
+969M clang-19.1.0.tar.zst
+```
+
+```sh
+cargo install arx
+```
+
 ### [ast-grep](https://github.com/ast-grep/ast-grep)
 
 > ast-grep(sg) is a CLI tool for code structural search, lint, and rewriting.
